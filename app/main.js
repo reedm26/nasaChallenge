@@ -1,7 +1,7 @@
 import NasaController from "./Controllers/NasaController.js";
 
 class App {
-  NasaController = new NasaController();
+  nasaController = new NasaController();
 }
 
 window["app"] = new App();

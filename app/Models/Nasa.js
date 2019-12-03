@@ -1,9 +1,10 @@
 export default class Nasa {
   constructor(data) {
-    this.title = data.title;
+    this.date = data.date;
+    this.media_type = data.media_type;
   }
 
   get Template() {
-    return this.title;
+    return this.date;
   }
 }
