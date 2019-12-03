@@ -1,7 +1,7 @@
-import ValuesController from "./Controllers/ValuesController.js";
+import NasaController from "./Controllers/NasaController.js";
 
 class App {
-  valuesController = new ValuesController();
+  NasaController = new NasaController();
 }
 
 window["app"] = new App();

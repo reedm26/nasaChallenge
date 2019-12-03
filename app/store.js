@@ -1,17 +1,16 @@
-import Value from "./Models/Value.js";
+import Nasa from "./Models/Nasa.js";
 
 let _state = {
-  activeValue: new Value({ title: "Value" }),
-  /** @type {Value[]} */
-  values: []
+  activeValue: new Nasa({ title: "pictures" }),
+  /** @type {pictures[]} */
+  pictures: []
 };
 
 /** Collection of listeners to be called based on keyed state changes
  * @type {{[x:string]: function[]}}
  */
 let _listeners = {
-  activeValue: [],
-  values: []
+  pictures: []
 };
 
 //NOTE You should not need to change the code from this point down
